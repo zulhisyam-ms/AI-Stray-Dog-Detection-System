@@ -1,1 +1,8 @@
+#Maps out the validation paths for your computer vision data layers
 
+test: ../test/images
+train: ../train/images
+val: ../valid/images
+
+nc: 1
+names: ['stray_dog']
